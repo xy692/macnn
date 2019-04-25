@@ -1,0 +1,14 @@
+train_net: "/home/xingyunyang/Documents/workspace/Multi-Attention-CNN/train/deploy/pig_part_deploy_train_fix_cls.prototxt"
+base_lr: 0.00999999977648
+display: 1000
+max_iter: 10000
+lr_policy: "step"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+stepsize: 2000
+snapshot: 1000
+snapshot_prefix: "/home/xingyunyang/Documents/workspace/Multi-Attention-CNN/experiment/train_bird_fix_cls"
+solver_mode: GPU
+iter_size: 8
+type: "SGD"
